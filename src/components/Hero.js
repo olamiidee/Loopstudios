@@ -59,7 +59,7 @@ export default function Hero() {
 
         {/* Mobile Menu */}
         <div
-          className="absolute top-0 left-0 bottom-0 flex-col self-end space-y-6 min-h-screen w-full py-1 pt-40 pl-12 text-4xl text-white bg-black uppercase hidden z-30"
+          className="absolute top-0 left-0 bottom-0 flex-col self-end space-y-6 h-screen w-full py-1 pt-40 pl-12 text-4xl text-white bg-black uppercase hidden z-30"
           id="menu"
           ref={menuRef}
         >
@@ -81,7 +81,7 @@ export default function Hero() {
         </div>
 
         <div className="max-w-lg border-2 my-32 border-white text-4xl md:text-6xl p-8 md:p-10 font-sans font-light md:m-24 md:mx-0 uppercase">
-          <p>immersive experinece that deliver</p>
+          <p>immersive experience that deliver</p>
         </div>
       </div>
     </section>
