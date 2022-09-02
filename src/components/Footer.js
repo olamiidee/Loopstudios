@@ -10,7 +10,7 @@ export default function Footer() {
               <img src="images/logo.svg" alt="" class="w-44 md:ml-3" />
             </div>
 
-            <div class="flex flex-col items-center space-y-4 font-bold text-white md:flex-row md:space-y-0 md:space-x-6 md:ml-3">
+            <div class="flex flex-col items-center space-y-4 font-semi-bold text-white md:flex-row md:space-y-0 md:space-x-6 md:ml-3">
               <div class="h-10 group">
                 <a href="#">About</a>
                 <div class="mx-2 group-hover:border-b-2 group-hover:border-blue-50"></div>
@@ -68,7 +68,7 @@ export default function Footer() {
               </div>
             </div>
 
-            <div class="font-bold">
+            <div class="font-semi-bold">
               &copy; 2022 Loopstudios. All Rights Reserved
             </div>
           </div>

@@ -5,7 +5,7 @@ export default function Creation() {
     <section id="Creation">
       <div className="container max-w-full mx-auto px-6 md:px-32">
         <div className="md:flex items-center justify-between">
-          <h2 className="max-w-lg mt-10 mb-6 text-4xl md:text-5xl md:mt-0 font-sans uppercase font-thin text-gray-900 text-center">
+          <h2 className="max-w-lg mt-10 mb-6 text-4xl md:text-5xl md:mt-0 font-sans uppercase font-light text-gray-900 text-center">
             our creations
           </h2>
           <button className="md:block hidden uppercase border-2 border-gray-500 px-12 py-2 tracking-widest hover:bg-black hover:text-white hover:border-0">

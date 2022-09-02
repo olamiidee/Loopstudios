@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 
-
 export default function Hero() {
   const menuRef = useRef();
   const btnRef = useRef();
@@ -16,7 +15,7 @@ export default function Hero() {
       <div className="container max-w-full mx-auto md:px-32 md:py-16 px-6 py-12 text-white">
         <nav className="flex items-center justify-between text-bold">
           <img
-            className="md:w-[15%] w-[30%]"
+            className="md:w-[15%] w-[35%]"
             src="/images/logo.svg"
             alt="img"
           />
@@ -60,7 +59,7 @@ export default function Hero() {
 
         {/* Mobile Menu */}
         <div
-          className="absolute top-0 left-0 bottom-0 flex-col self-end space-y-4 min-h-screen w-full py-1 pt-40 pl-12 text-xl text-white bg-black uppercase hidden"
+          className="absolute top-0 left-0 bottom-0 flex-col self-end space-y-4 min-h-screen w-full py-1 pt-40 pl-12 text-3xl text-white bg-black uppercase hidden z-30"
           id="menu"
           ref={menuRef}
         >
@@ -74,9 +73,6 @@ export default function Hero() {
             Events
           </a>
           <a className="hover:text-pink-500" href="#">
-            About
-          </a>
-          <a className="hover:text-pink-500" href="#">
             Products
           </a>
           <a className="hover:text-pink-500" href="#">
@@ -84,7 +80,7 @@ export default function Hero() {
           </a>
         </div>
 
-        <div className="max-w-lg border-2 my-32 border-white text-5xl md:text-6xl p-8 md:p-10 font-sans font-thin md:m-24 md:mx-0 uppercase">
+        <div className="max-w-lg border-2 my-32 border-white text-4xl md:text-6xl p-8 md:p-10 font-sans font-light md:m-24 md:mx-0 uppercase">
           <p>immersive experinece that deliver</p>
         </div>
       </div>
