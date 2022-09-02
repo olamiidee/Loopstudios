@@ -39,8 +39,8 @@ h5 {
 /* Hamburger Menu */
 .hamburger {
   cursor: pointer;
-  width: 26px;
-  height: 26px;
+  width: 30px;
+  height: 30px;
   transition: all 0.25s;
   position: relative;
 }
@@ -50,7 +50,7 @@ h5 {
 .hamburger-bottom {
   position: absolute;
   height: 2px;
-  width: 24px;
+  width: 30px;
   top: 0;
   left: 0;
   background: #fff;
