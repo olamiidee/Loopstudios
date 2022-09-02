@@ -15,7 +15,7 @@ export default function Hero() {
       <div className="container max-w-full mx-auto md:px-32 md:py-16 px-6 py-12 text-white">
         <nav className="flex items-center justify-between text-bold">
           <img
-            className="md:w-[15%] w-[35%]"
+            className="md:w-[15%] w-[40%]"
             src="/images/logo.svg"
             alt="img"
           />
@@ -59,7 +59,7 @@ export default function Hero() {
 
         {/* Mobile Menu */}
         <div
-          className="absolute top-0 left-0 bottom-0 flex-col self-end space-y-4 min-h-screen w-full py-1 pt-40 pl-12 text-3xl text-white bg-black uppercase hidden z-30"
+          className="absolute top-0 left-0 bottom-0 flex-col self-end space-y-6 min-h-screen w-full py-1 pt-40 pl-12 text-4xl text-white bg-black uppercase hidden z-30"
           id="menu"
           ref={menuRef}
         >
